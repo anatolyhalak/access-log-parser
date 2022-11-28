@@ -7,13 +7,13 @@ public class Main {
         System.out.println("Введите второе число:");
         int secondNumber = new Scanner(System.in).nextInt();
 
-        double sum = (double) firstNumber + secondNumber;
+        int sum = (int) firstNumber + secondNumber;
         System.out.println("Сумма чисел: " + sum);
 
-        double difference = (double) firstNumber - secondNumber;
+        int difference = (int) firstNumber - secondNumber;
         System.out.println("Разность чисел: " + difference);
 
-        double productOfNumbers = (double) firstNumber * secondNumber;
+        int productOfNumbers = (int) firstNumber * secondNumber;
         System.out.println("Произведение чисел: " + productOfNumbers);
 
         double quotient = (double) firstNumber / secondNumber;
